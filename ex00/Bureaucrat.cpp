@@ -33,7 +33,7 @@ Bureaucrat & Bureaucrat::operator=(Bureaucrat const & rhs)
 
 Bureaucrat::~Bureaucrat()
 {
-	std::cout << "Bureaucrat default destructor called" << std::endl;
+	std::cout << "Bureaucrat " << _name << " destructor called" << std::endl;
 }
 
 std::string const &	Bureaucrat::getName() const
